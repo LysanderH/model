@@ -1,0 +1,24 @@
+{
+  "name": "WorldSkills",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "watch": "node_modules/.bin/webpack --watch --mode development",
+    "serve": "webpack-dev-server -d --hot --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^2.0.12"
+  },
+  "dependencies": {}
+}
